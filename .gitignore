@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Логи и данные
+*.log
+kleinanzeigen_items.txt
+sent_messages.json
+last_items.json
+*.flag
+
+# Конфигурация (раскомментируйте для продакшена)
+# KleinanzeigenConfig.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+temp/
